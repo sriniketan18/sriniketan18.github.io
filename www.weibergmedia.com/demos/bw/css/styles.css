@@ -32,8 +32,6 @@
 
 
 
-
-
 .anim {
 		margin:0;
 		overflow: hidden;
@@ -60,10 +58,6 @@
 		border: 1px solid white;
 		background: rgba(255,255,255,0.2);
 	}
-
-
-
-
 
 /* =1. Clearfix
 --------------------------------------------------------------------------------------------------------*/
@@ -479,7 +473,7 @@ i.fa { margin-right:3px; color:#2b2b2b }
 #Container { margin-top:0px; }
 body.blog #Container { padding-right:0; }
 .filter { float:none; padding-top:5px; cursor:pointer; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
-.filter.active, .filter:hover { color:#035033; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
+.filter.active, .filter:hover { color:#2b2b2b; -webkit-transition: all 0.2s ease 0s; transition: all 0.2s ease 0s; }
 /* =End Galleries
 --------------------------------------------------------------------------------------------------------*/
 
@@ -510,9 +504,7 @@ aside { padding-bottom:5px; }
 
 /* =13. Footer
 --------------------------------------------------------------------------------------------------------*/
-footer { min-height:100px; margin:0px 0px 0 0px;bottom: 0;
-	left: 0; background:#2b2b2b; width:100%; }
-
+footer { min-height:100px; margin:0px 0px 0 0px; background:#2b2b2b; width:100%; }
 footer .container { padding-top:39px; padding-bottom:39px; }
 footer .social-list { padding:0; }
 footer .social-list li { padding:0 0 0 10px; }
@@ -597,4 +589,3 @@ ul.unordered-list li a::after:hover, ol li a::after:hover, ul.tag-list li a::aft
 .service-content.last { margin-bottom:10px; }
 /* End Services
 --------------------------------------------------------------------------------------------------------*/
-

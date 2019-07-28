@@ -20,7 +20,7 @@
 			x : x,
 			y: y
 		};
-		this.r =  0.75;
+		this.r =  Math.random()*2 + 2;
 		this.vx = (Math.random()-0.5)*20;
 		this.vy = (Math.random()-0.5)*20;
 		this.accX = 0;
@@ -93,9 +93,9 @@ function onTouchEnd(e){
 		ctx.globalCompositeOperation = "screen";
 
 		particles = [];
-		for(var i=0;i<ww;i+=2){
-			for(var j=0;j<wh;j+=2){
-				if(data[ ((i + j*ww)*4) + 3] > 250){
+		for(var i=0;i<ww;i+=Math.round(ww/150)){
+			for(var j=0;j<wh;j+=Math.round(ww/150)){
+				if(data[ ((i + j*ww)*4) + 3] > 150){
 					particles.push(new Particle(i,j));
 				}
 			}
